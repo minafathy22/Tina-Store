@@ -1739,4 +1739,4 @@ def logout():
 if __name__ == "__main__":
     create_tables()  # Create tables if they don't exist
     update_schema()  # Update schema if needed
-    app.run(debug=True)  # Run the Flask application
+    app.run(host="0.0.0.0", port=5000)  # Run the Flask application
