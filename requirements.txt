@@ -1,3 +1,11 @@
-flask
+flask 
 flask_login
+werkzeug.security
+sqlite3
+logging
+pandas
+os
+io
+datetime
+config
 gunicorn
